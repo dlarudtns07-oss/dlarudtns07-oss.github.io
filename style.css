@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
-    background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+    background: red;
     color: #111827;
     line-height: 1.6;
 }
@@ -163,6 +163,7 @@ body {
     color: #9ca3af;
     font-size: 12px;
 }
+
 
 
 
