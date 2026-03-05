@@ -57,7 +57,7 @@ body {
     box-shadow: 0 30px 60px rgba(15, 23, 42, 0.12);
 }
 
-/* 프로필 */
+/* 프로필 카드 */
 .profile-card {
     display: grid;
     grid-template-columns: 110px 1fr;
@@ -121,6 +121,12 @@ body {
     font-weight: 600;
 }
 
+/* 섹션 제목 */
+.section-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
 /* 태그 */
 .tag-list {
     list-style: none;
@@ -144,17 +150,6 @@ body {
     color: white;
 }
 
-/* 경험 리스트 */
-.experience-list {
-    padding-left: 20px;
-    font-size: 14px;
-    color: #374151;
-}
-
-.experience-list li {
-    margin-bottom: 6px;
-}
-
 /* footer */
 .footer {
     text-align: center;
@@ -162,4 +157,3 @@ body {
     color: #9ca3af;
     font-size: 12px;
 }
-
